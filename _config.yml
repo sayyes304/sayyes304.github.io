@@ -25,11 +25,11 @@ author:
   avatar           : "profile.png"
   name             : "Sei Kang"
   pronouns         : # example: "she/her"  
-  bio              : "M.S. student at Empathic Computing Lab in Korea, Chonnam National University"
+  bio              : "Ph.D. student at Empathic Computing Lab in Korea, Chonnam National University"
   location         : "Gwangju, South Korea"
   employer         : #"Chonnam National University"
   uri              : "https://sites.google.com/view/arvrlab/home"
-  email            : "gsi7409@jnu.ac.kr" 
+  email            : "seikang@jnu.ac.kr" 
 
   # Academic websites
   academia         : # URL
