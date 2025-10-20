@@ -82,8 +82,6 @@ Journal of Digital Contents Society (KCI)
   </div>
 </div>
 
-<i class="ai ai-google-scholar ai-fw icon-pad-right"></i>
-
 
 ## Adjuct Publications (Posters)
 
