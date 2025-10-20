@@ -82,13 +82,14 @@ Journal of Digital Contents Society (KCI)
   </div>
 </div>
 
+<i class="ai ai-google-scholar ai-fw icon-pad-right"></i>
 
 
 ## Adjuct Publications (Posters)
 
 # Patents
 
-# Award and Scholarship
+# Honors and Awards
 
 - Best Presentation Award
   - dd
