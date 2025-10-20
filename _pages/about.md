@@ -32,7 +32,7 @@ I am a Ph.D. student at <a href="https://sites.google.com/view/arvrlab/home" cla
     <h3>Design and Evaluation of a Virtual Agent for Interpersonal Emotion Regulation in VR <br></h3>
     <p><strong>Sei Kang</strong>, Gun A. Lee, Hyung-Jeong Yang, Soo-Hyung Kim, Ji-eun Shin, Jaejoon Jeong, Myungho Lee, and Seungwon Kim<br>
        <em>IEEE ISMAR 2025</em></p>
-      <a href="10.1109/ISMAR67309.2025.00159" class="link-dotted"> [DOI]</a>
+      <a href="10.1109/ISMAR67309.2025.00159" class="link-dotted"> [DOI (TBD)]</a>
       ·
       <a href="https://www.youtube.com/watch?v=5kXy2U_EC4c" class="link-dotted"> [Video]</a>
   </div>
@@ -47,7 +47,7 @@ I am a Ph.D. student at <a href="https://sites.google.com/view/arvrlab/home" cla
     <h3>Three Techniques for Enhancing Emotional Expression on Embodied Avatar Face in VR <br></h3>
     <p>Jaejoon Jeong, Gun A. Lee, Hyung-Jeong Yang, Soo-Hyung Kim, Ji-eun Shin, Gayun Suh, <strong>Sei Kang</strong>, and Seungwon Kim<br>
        <em>IEEE ISMAR 2025</em></p>
-      <a href="10.1109/ISMAR67309.2025.00016" class="link-dotted"> [DOI]</a>
+      <a href="10.1109/ISMAR67309.2025.00016" class="link-dotted"> [DOI (TBD)]</a>
       ·
       <a href="https://www.youtube.com/watch?v=Um-GoWzdkWk" class="link-dotted"> [Video]</a>
   </div>
@@ -61,7 +61,7 @@ I am a Ph.D. student at <a href="https://sites.google.com/view/arvrlab/home" cla
     <h3>Performance Analysis of GazeRayHand Techniques for Complex Object-Manipulation Tasks in VR Environments <br></h3>
     <p>Yunsu Lee, <strong>Sei Kang</strong>, and Seungwon Kim<br>
        <em>Journal of Digital Contents Society (KCI). 26(8), 2237-2247. 2025 </em></p>
-      <a href="10.9728/dcs.2025.26.8.2237" class="link-dotted"> [DOI]</a>
+      <a href="https://doi.org/10.9728/dcs.2025.26.8.2237" class="link-dotted"> [DOI]</a>
   </div>
 </div>
 
@@ -102,7 +102,7 @@ I am a Ph.D. student at <a href="https://sites.google.com/view/arvrlab/home" cla
 **Willingness to Interact: Social Resources Facilitate Pulling Actions toward Social Avatars in Virtual Reality**<br>
 Jaejoon Jeong, Hwaryung Lee, Ji-eun Shin, Daeun Kim, **Sei Kang**, Gun A. Lee, Soo-Hyung Kim, Hyung-Jeong Yang, and Seungwon Kim<br> 
 *IEEE VRW 2025*
-<a href="10.1109/VRW66409.2025.00272" class="link-dotted"> [DOI]</a>
+<a href="https://doi.org/10.1109/VRW66409.2025.00272" class="link-dotted"> [DOI]</a>
 
 # Patents
 - **Method and System for Distant Object Manipulation using Gaze Ray and Hand Interface**
