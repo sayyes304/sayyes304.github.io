@@ -15,17 +15,30 @@ a.link-blue:hover {
 
 /* 2. 회색 글씨 + 파란 점선 밑줄 */
 a.link-dotted {
-  color: #333333 !important;
+  color: #006e3b !important;
+  text-decoration: none !important;
+}
+
+a.link-dotted:hover {
+  // color: #0070f3 !important;
+  // text-decoration-color: #0056b3 !important;
   text-decoration-line: underline !important;
   text-decoration-style: dotted !important;
-  text-decoration-color: #0070f3 !important;
+  text-decoration-color: #006e3b !important;
   text-decoration-thickness: 1.5px;
   transition: color 0.2s ease, text-decoration-color 0.2s ease;
 }
 
-a.link-dotted:hover {
-  color: #0070f3 !important;
-  text-decoration-color: #0056b3 !important;
+
+.pub-card-news {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #3c3c3c;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 140, 255, 0.10);
 }
 
 /* 전체 카드 */
