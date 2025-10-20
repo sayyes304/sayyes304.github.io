@@ -4,7 +4,7 @@
  *  Square icons designed to be used alongside Font Awesome square icons - https://fortawesome.github.io/Font-Awesome/
  *  Licenses - Font: SIL OFL 1.1, CSS: MIT License
  */
-/* @font-face {
+@font-face {
     font-family: 'Academicons';
     font-style: normal;
     font-weight: 400;
@@ -14,19 +14,12 @@
         url('../fonts/academicons.ttf') format('truetype'),
         url('../fonts/academicons.woff') format('woff'),
         url('../fonts/academicons.svg') format('svg');
-} */
+}
 
 @font-face {
     font-family: 'Pretendard';
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff') format('woff');
     font-weight: 100;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'BookkMyungjo';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Lt.woff2') format('woff2');
-    font-weight: 400;
     font-display: swap;
 }
 
