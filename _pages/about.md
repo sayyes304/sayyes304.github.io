@@ -65,7 +65,7 @@ I am a Ph.D. student at <a href="https://sites.google.com/view/arvrlab/home" cla
     <p class="resource-links">
       <a href="https://dl.acm.org/doi/10.1145/3613904.3642147" class="link-dotted"> [DOI]</a>
       ·
-      <a href="https://www.youtube.com/watch?v=-Ys_rPbK6ds" class="link-dotted"> [Video]</a>
+      <a href="https://www.youtube.com/watch?v=cbDJiJG0QyA" class="link-dotted"> [Video]</a>
     </p>
   </div>
 </div>
@@ -77,7 +77,7 @@ Jaejoon Jeong, Hwaryung Lee, Ji-eun Shin, Daeun Kim, **Sei Kang**, Gun A. Lee, S
 *IEEE VRW 2025*
 <a href="https://doi.org/10.1109/VRW66409.2025.00272" class="link-dotted"> [DOI]</a>
 ·
-<a href="https://www.youtube.com/watch?v=cbDJiJG0QyA" class="link-dotted"> [Video]</a>
+<a href="https://www.youtube.com/watch?v=-Ys_rPbK6ds" class="link-dotted"> [Video]</a>
 
 # Patents
 
