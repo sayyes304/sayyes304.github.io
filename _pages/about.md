@@ -20,6 +20,9 @@ I am a Ph.D. student at <a href="https://sites.google.com/view/arvrlab/home" cla
     <h3>Effects of Gesture Size in Virtual Agents on Persuasive Communication</h3>
     <p>Gayun Suh, Gun A. Lee, Hyung-Jeong Yang, Soo-Hyung Kim, Ji-eun Shin, Jaejoon Jeong, <strong>Sei Kang</strong>, and Seungwon Kim <br>
        <em>ACM VRST 2025</em></p>
+       <a href="https://doi.org/10.1145/3756884.3766037" class="link-dotted"> [DOI]</a>
+      ·<a href="https://youtu.be/cbQvHqFM5tI?si=ZJIT9nQlbkL9Irh2" class="link-dotted"> [Video]</a>
+       
   </div>
 </div>
 
@@ -52,30 +55,6 @@ I am a Ph.D. student at <a href="https://sites.google.com/view/arvrlab/home" cla
 
 <div class="pub-card">
   <div class="pub-thumb">
-    <img src="/images/KCI_GRH2.jpg" alt="GRH2">
-  </div>
-  <div class="pub-body">
-    <h3>Performance Analysis of GazeRayHand Techniques for Complex Object-Manipulation Tasks in VR Environments <br></h3>
-    <p>Yunsu Lee, <strong>Sei Kang</strong>, and Seungwon Kim<br>
-       <em>Journal of Digital Contents Society (KCI). 26(8), 2237-2247. 2025 </em></p>
-      <a href="https://doi.org/10.9728/dcs.2025.26.8.2237" class="link-dotted"> [DOI]</a>
-  </div>
-</div>
-
-<div class="pub-card">
-  <div class="pub-thumb">
-    <img src="/images/MDPI_GRH.png" alt="GRH">
-  </div>
-  <div class="pub-body">
-    <h3>GazeRayHand: Combining Gaze Ray and Hand Interaction for Distant Object Manipulation <br></h3>
-    <p><strong>Sei Kang</strong>, Jaejoon Jeong, Soo-Hyung Kim, Hyung-Jeong Yang, Gun A Lee, and Seungwon Kim<br>
-       <em>Applied Sciences. 15(13), 7065. 2025 </em></p>
-    <a href="https://doi.org/10.3390/app15137065" class="link-dotted"> [DOI]</a>
-  </div>
-</div>
-
-<div class="pub-card">
-  <div class="pub-thumb">
     <img src="/images/CHI_Rayhand.png" alt="RayHand">
   </div>
 
@@ -86,7 +65,7 @@ I am a Ph.D. student at <a href="https://sites.google.com/view/arvrlab/home" cla
     <p class="resource-links">
       <a href="https://dl.acm.org/doi/10.1145/3613904.3642147" class="link-dotted"> [DOI]</a>
       ·
-      <a href="https://www.youtube.com/watch?v=cbDJiJG0QyA" class="link-dotted"> [Video]</a>
+      <a href="https://www.youtube.com/watch?v=-Ys_rPbK6ds" class="link-dotted"> [Video]</a>
     </p>
   </div>
 </div>
@@ -97,6 +76,8 @@ I am a Ph.D. student at <a href="https://sites.google.com/view/arvrlab/home" cla
 Jaejoon Jeong, Hwaryung Lee, Ji-eun Shin, Daeun Kim, **Sei Kang**, Gun A. Lee, Soo-Hyung Kim, Hyung-Jeong Yang, and Seungwon Kim<br>
 *IEEE VRW 2025*
 <a href="https://doi.org/10.1109/VRW66409.2025.00272" class="link-dotted"> [DOI]</a>
+·
+<a href="https://www.youtube.com/watch?v=cbDJiJG0QyA" class="link-dotted"> [Video]</a>
 
 # Patents
 
