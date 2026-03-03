@@ -108,8 +108,7 @@ I am a Ph.D. student at <a href="https://sites.google.com/view/arvrlab/home" cla
     <p><strong>Sei Kang</strong>, Jaejoon Jeong, Gun A. Lee, Soo-Hyung Kim, Hyung-Jeong Yang, and Seungwon Kim<br>
        <em>ACM CHI 2024</em></p>
     <p class="resource-links">
-      <!-- <a href="{{ site.baseurl }}/CHI24-Project/" class="link-dotted"> [Project]</a> -->
-      ·<a href="https://dl.acm.org/doi/10.1145/3613904.3642147" class="link-dotted"> [DOI]</a>
+      <a href="https://dl.acm.org/doi/10.1145/3613904.3642147" class="link-dotted"> [DOI]</a>
       ·
       <a href="https://www.youtube.com/watch?v=cbDJiJG0QyA" class="link-dotted"> [Video]</a>
     </p>
