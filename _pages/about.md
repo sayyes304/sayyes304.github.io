@@ -8,9 +8,55 @@ redirect_from:
 ---
 I am a Ph.D. student at <a href="https://sites.google.com/view/arvrlab/home" class="link-blue">ECL in Korea</a>, <a href="https://www.jnu.ac.kr/" class="link-blue">Chonnam National University</a>, advised by Prof. <a href="https://scholar.google.com/citations?user=epOZdMsAAAAJ&hl=ko&oi=ao" class="link-blue">Seungwon Kim</a>. My research interests lie in AR/VR and HCI, especially in human-agent interaction.
 
-# Publications
+# Latest News
+<div class="section-gap">
+<div class="news-list">
+  <div class="news-item">
+    <div class="news-date">Jan. 2026</div>
+    <div class="news-body">
+      Conditionally Accepted to <strong>ACM CHI 2026</strong> 🎉
+    </div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">Oct. 2025</div>
+    <div class="news-body">
+      Presenting a paper 📄 - <strong>ISMAR 2025</strong> 
+    </div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">Sep. 2025</div>
+    <div class="news-body">
+      Best Presentation Award 🏆 - Pitch You Work at APMAR 2025
+    </div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">Oct. 2025</div>
+    <div class="news-body">
+      Received M.S. in Chonnam National University
+    </div>
+  </div>
+  
+</div>
+</div>
+
+
+
+# Selected Publications
 
 ## Regular Publications
+<div class="pub-card">
+  <div class="pub-thumb">
+    <img src="" alt="TBD">
+  </div>
+  <div class="pub-body">
+    <h3>Exploring the Effects of Support Type and Task Difficulty for Virtual Assistants as Social Companions</h3>
+    <p><strong>Sei Kang</strong>, YunSu Lee, Gun A. Lee, Hyung-Jeong Yang, Soo-Hyung Kim, Ji-eun Shin, Seungwon Kim <br>
+       <em>ACM CHI 2026</em></p>
+  </div>
+</div>
 
 <div class="pub-card">
   <div class="pub-thumb">
@@ -20,9 +66,8 @@ I am a Ph.D. student at <a href="https://sites.google.com/view/arvrlab/home" cla
     <h3>Effects of Gesture Size in Virtual Agents on Persuasive Communication</h3>
     <p>Gayun Suh, Gun A. Lee, Hyung-Jeong Yang, Soo-Hyung Kim, Ji-eun Shin, Jaejoon Jeong, <strong>Sei Kang</strong>, and Seungwon Kim <br>
        <em>ACM VRST 2025</em></p>
-       <a href="https://doi.org/10.1145/3756884.3766037" class="link-dotted"> [DOI]</a>
-      ·<a href="https://youtu.be/cbQvHqFM5tI?si=ZJIT9nQlbkL9Irh2" class="link-dotted"> [Video]</a>
-       
+      <a href="https://doi.org/10.1145/3756884.3766037" class="link-dotted"> [DOI]</a>
+      ·<a href="https://youtu.be/cbQvHqFM5tI?si=ZJIT9nQlbkL9Irh2" class="link-dotted"> [Video]</a>   
   </div>
 </div>
 
@@ -63,7 +108,8 @@ I am a Ph.D. student at <a href="https://sites.google.com/view/arvrlab/home" cla
     <p><strong>Sei Kang</strong>, Jaejoon Jeong, Gun A. Lee, Soo-Hyung Kim, Hyung-Jeong Yang, and Seungwon Kim<br>
        <em>ACM CHI 2024</em></p>
     <p class="resource-links">
-      <a href="https://dl.acm.org/doi/10.1145/3613904.3642147" class="link-dotted"> [DOI]</a>
+      <!-- <a href="{{ site.baseurl }}/CHI24-Project/" class="link-dotted"> [Project]</a> -->
+      ·<a href="https://dl.acm.org/doi/10.1145/3613904.3642147" class="link-dotted"> [DOI]</a>
       ·
       <a href="https://www.youtube.com/watch?v=cbDJiJG0QyA" class="link-dotted"> [Video]</a>
     </p>
@@ -89,7 +135,7 @@ Jaejoon Jeong, Hwaryung Lee, Ji-eun Shin, Daeun Kim, **Sei Kang**, Gun A. Lee, S
   - Korea Granted Patent (Registration No. 10-2783127) <a href="https://doi.org/10.8080/1020240100257" class="link-dotted"> [DOI]</a>
 
 # Honors and Awards
-
+- 2025 BK21 Fellowship scholarship, 2026
 - Best Presentation Award, APMAR 2025
 - NRF M.S. Fellowship (RS-2024-00465826), 2024-2025
 - Presidential Science Scholarship (M.S.), 2024-2025
@@ -99,6 +145,9 @@ Jaejoon Jeong, Hwaryung Lee, Ji-eun Shin, Daeun Kim, **Sei Kang**, Gun A. Lee, S
 - Grand Prize, Web Portfolio - AI+X Coding Fundamental Competency Enhancement Competition, 2022
 
 # Invited Talks
-
+- APMAR 2025, Pitch Your Work Session
 - ISMAR 2024, Lightning Talk of the LocXR Workshop
 - Korea Computer Congress (KCC) 2024, Top Conference Session
+
+# Academic Service
+- KSC 2025, CG&I Society, Metaverse+AI+XR Workshop, Steering Committee Chair

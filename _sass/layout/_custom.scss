@@ -15,7 +15,7 @@ a.link-blue:hover {
 
 /* 2. 회색 글씨 + 파란 점선 밑줄 */
 a.link-dotted {
-  color: #006e3b !important;
+  color: #0056b3 !important;
   text-decoration: none !important;
 }
 
@@ -24,7 +24,7 @@ a.link-dotted:hover {
   // text-decoration-color: #0056b3 !important;
   text-decoration-line: underline !important;
   text-decoration-style: dotted !important;
-  text-decoration-color: #006e3b !important;
+  text-decoration-color: #0056b3 !important;
   text-decoration-thickness: 1.5px;
   transition: color 0.2s ease, text-decoration-color 0.2s ease;
 }
@@ -83,3 +83,60 @@ a.link-dotted:hover {
 
 /* 옵션: 이미지 전체가 보이게(자르지 않음) 하고 싶을 때 */
 .pub-thumb--contain img { object-fit: contain; background: #fff; }
+
+/* --- Latest News list (screenshot-like) --- */
+.news-list{
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.news-item{
+  display: flex;
+  gap: 18px;
+  padding: 14px 18px;
+  // border-top: 1px solid rgba(0,0,0,0.08);
+  align-items: center;
+}
+
+.news-item:first-child{
+  border-top: none;
+}
+
+.news-date{
+  min-width: 120px;          /* 날짜 칼럼 폭 */
+  font-weight: 700;
+  // font-size: 14px;
+  color: rgba(0,0,0,0.70);
+  white-space: nowrap;
+}
+
+.news-body{
+  // font-size: 15px;
+  line-height: 1.45;
+  color: rgba(0,0,0,0.85);
+}
+
+.news-item:hover{
+  background: rgba(0,0,0,0.02);
+}
+
+.news-item.is-highlight{
+  background: rgba(45, 125, 255, 0.06); /* 마지막 줄 연하게 강조 */
+}
+
+.news-link{
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 6px;
+}
+
+.news-link:hover{
+  text-decoration: underline;
+}
+
+/* 섹션 간 간격 */
+.section-gap{
+  margin-bottom: 48px;   /* News ↔ Publications 간격 */
+}
