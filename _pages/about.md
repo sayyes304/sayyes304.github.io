@@ -33,7 +33,7 @@ I am a Ph.D. student at <a href="https://sites.google.com/view/arvrlab/home" cla
   </div>
 
   <div class="news-item">
-    <div class="news-date">Oct. 2025</div>
+    <div class="news-date">Aug. 2025</div>
     <div class="news-body">
       Received M.S. in Chonnam National University
     </div>
@@ -134,7 +134,7 @@ Jaejoon Jeong, Hwaryung Lee, Ji-eun Shin, Daeun Kim, **Sei Kang**, Gun A. Lee, S
   - Korea Granted Patent (Registration No. 10-2783127) <a href="https://doi.org/10.8080/1020240100257" class="link-dotted"> [DOI]</a>
 
 # Honors and Awards
-- 2025 BK21 Fellowship scholarship, 2026
+- 2025 BK21 Fellowship scholarship - Chonnam National University, 2026
 - Best Presentation Award, APMAR 2025
 - NRF M.S. Fellowship (RS-2024-00465826), 2024-2025
 - Presidential Science Scholarship (M.S.), 2024-2025
