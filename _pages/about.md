@@ -12,9 +12,9 @@ I am a Ph.D. student at <a href="https://sites.google.com/view/arvrlab/home" cla
 <div class="section-gap">
 <div class="news-list">
   <div class="news-item">
-    <div class="news-date">Jan. 2026</div>
+    <div class="news-date">Apr. 2026</div>
     <div class="news-body">
-      Conditionally Accepted to <strong>ACM CHI 2026</strong> 🎉
+      Presenting a paper 📄 - <strong>ACM CHI 2026</strong>
     </div>
   </div>
 
@@ -49,12 +49,14 @@ I am a Ph.D. student at <a href="https://sites.google.com/view/arvrlab/home" cla
 ## Regular Publications
 <div class="pub-card">
   <div class="pub-thumb">
-    <img src="" alt="TBD">
+    <img src="/images/CHI26_VA.png" alt="TBD">
   </div>
   <div class="pub-body">
     <h3>Exploring the Effects of Support Type and Task Difficulty for Virtual Assistants as Social Companions</h3>
     <p><strong>Sei Kang</strong>, YunSu Lee, Gun A. Lee, Hyung-Jeong Yang, Soo-Hyung Kim, Ji-eun Shin, Seungwon Kim <br>
        <em>ACM CHI 2026</em></p>
+        <a href="https://doi.org/10.1145/3772318.3790674" class="link-dotted"> [DOI]</a>
+      <!-- ·<a href="https://youtu.be/cbQvHqFM5tI?si=ZJIT9nQlbkL9Irh2" class="link-dotted"> [Video]</a>    -->
   </div>
 </div>
 
