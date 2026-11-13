@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Sei Kang"
+title: ""
 layout: home
 redirect_from: 
   - /about/
