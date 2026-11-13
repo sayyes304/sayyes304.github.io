@@ -1,0 +1,148 @@
+---
+---
+{%- assign p = site.data.profile -%}
+{%- assign papers = site.data.papers -%}
+{%- capture me_html %}<span class="me">{{ papers.me }}</span>{% endcapture -%}
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% include seo.html %}
+  <link rel="stylesheet" href="{{ '/assets/css/academicons.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
+  <link rel="icon" href="{{ '/images/Icon_SEI.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/images/Icon_SEI.png' | relative_url }}">
+  {% include analytics.html %}
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container site-header-inner">
+    <a class="wordmark" href="#top">{{ site.author.name }}<span class="dot">.</span></a>
+    <nav class="site-nav">
+      <a href="#news">News</a>
+      <a href="#publications">Publications</a>
+      <a href="{{ '/files/CV_강세이.pdf' | relative_url }}">CV</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="eyebrow">{{ p.role }}</p>
+        <h1 class="display">{{ site.author.name }}<span class="dot">.</span></h1>
+        <div class="lede">{{ p.bio | markdownify }}</div>
+        <div class="hero-links">
+          {% for l in p.links %}<a class="arrow-link" href="{{ l.url | relative_url }}">{{ l.label }}<span class="arrow-glyph">↗</span></a>{% endfor %}
+        </div>
+      </div>
+      <figure class="hero-photo">
+        <img src="{{ '/images/' | append: site.author.avatar | relative_url }}" alt="{{ site.author.name }}">
+      </figure>
+    </div>
+  </section>
+
+  <!-- News -->
+  <section class="section" id="news">
+    <div class="container">
+      <div class="section-head"><h2>Latest News</h2></div>
+      <ul class="news-list card">
+        {% for n in site.data.news %}
+        <li class="news">
+          <span class="news-date">{{ n.date }}</span>
+          <span class="news-text">{{ n.text }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+
+  <!-- Publications -->
+  <section class="section" id="publications">
+    <div class="container">
+      <div class="section-head"><h2>Selected Publications</h2></div>
+
+      <ul class="pub-list">
+        {% for pub in papers.featured %}
+        <li class="pub card">
+          <a class="pub-image" href="{{ pub.links[0].url }}">
+            <img src="{{ pub.image | relative_url }}" alt="" loading="lazy">
+          </a>
+          <div class="pub-body">
+            <div class="pub-venue">{{ pub.venue }}</div>
+            <h3 class="pub-title"><a href="{{ pub.links[0].url }}">{{ pub.title }}</a></h3>
+            <p class="pub-authors">{{ pub.authors | replace: papers.me, me_html }}</p>
+            <div class="pub-links">
+              {% for l in pub.links %}<a class="arrow-link" href="{{ l.url }}">{{ l.label }}<span class="arrow-glyph">↗</span></a>{% endfor %}
+            </div>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+
+      <h3 class="sub-title">Adjunct Publications (Posters)</h3>
+      <ul class="row-list card">
+        {% for pub in papers.posters %}
+        <li class="row">
+          <span class="row-tag">{{ pub.venue }}</span>
+          <div class="row-main">
+            <div class="row-title">{{ pub.title }}</div>
+            <div class="row-sub">{{ pub.authors | replace: papers.me, me_html }}</div>
+          </div>
+          <div class="row-links">
+            {% for l in pub.links %}<a class="arrow-link" href="{{ l.url }}">{{ l.label }}<span class="arrow-glyph">↗</span></a>{% endfor %}
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+
+  <!-- Patents -->
+  <section class="section section--entries" id="patents">
+    <div class="container">
+      <div class="section-head"><h2>Patents</h2></div>
+      {% include home-entries.html items=papers.patents %}
+    </div>
+  </section>
+
+  <!-- Honors and Awards -->
+  <section class="section section--entries" id="honors">
+    <div class="container">
+      <div class="section-head"><h2>Honors and Awards</h2></div>
+      {% include home-entries.html items=p.awards %}
+    </div>
+  </section>
+
+  <!-- Invited Talks -->
+  <section class="section section--entries" id="talks">
+    <div class="container">
+      <div class="section-head"><h2>Invited Talks</h2></div>
+      {% include home-entries.html items=p.talks %}
+    </div>
+  </section>
+
+  <!-- Academic Service -->
+  <section class="section section--entries" id="service">
+    <div class="container">
+      <div class="section-head"><h2>Academic Service</h2></div>
+      {% include home-entries.html items=p.service %}
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container site-footer-inner">
+    <span>© {{ site.time | date: '%Y' }} {{ site.author.name }}</span>
+    <span>{{ site.author.bio }}</span>
+  </div>
+</footer>
+
+</body>
+</html>

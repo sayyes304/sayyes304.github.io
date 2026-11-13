@@ -1,0 +1,64 @@
+# Publications shown on the homepage.
+# `me` marks the author name to underline. `links` render as "Label ↗".
+
+me: "Sei Kang"
+
+featured:
+  - title: "Exploring the Effects of Support Type and Task Difficulty for Virtual Assistants as Social Companions"
+    venue: "ACM CHI 2026"
+    image: /images/CHI26_VA.png
+    authors: "Sei Kang, YunSu Lee, Gun A. Lee, Hyung-Jeong Yang, Soo-Hyung Kim, Ji-eun Shin, Seungwon Kim"
+    links:
+      - { label: DOI, url: "https://doi.org/10.1145/3772318.3790674" }
+
+  - title: "Effects of Gesture Size in Virtual Agents on Persuasive Communication"
+    venue: "ACM VRST 2025"
+    image: /images/VRST25_gesture.png
+    authors: "Gayun Suh, Gun A. Lee, Hyung-Jeong Yang, Soo-Hyung Kim, Ji-eun Shin, Jaejoon Jeong, Sei Kang, Seungwon Kim"
+    links:
+      - { label: DOI, url: "https://doi.org/10.1145/3756884.3766037" }
+      - { label: Video, url: "https://youtu.be/cbQvHqFM5tI?si=ZJIT9nQlbkL9Irh2" }
+
+  - title: "Design and Evaluation of a Virtual Agent for Interpersonal Emotion Regulation in VR"
+    venue: "IEEE ISMAR 2025"
+    image: /images/ISMAR25_ER.png
+    authors: "Sei Kang, Gun A. Lee, Hyung-Jeong Yang, Soo-Hyung Kim, Ji-eun Shin, Jaejoon Jeong, Myungho Lee, Seungwon Kim"
+    links:
+      - { label: DOI, url: "https://doi.org/10.1109/ISMAR67309.2025.00159" }
+      - { label: Video, url: "https://www.youtube.com/watch?v=5kXy2U_EC4c" }
+
+  - title: "Three Techniques for Enhancing Emotional Expression on Embodied Avatar Face in VR"
+    venue: "IEEE ISMAR 2025"
+    image: /images/ISMAR25_face.png
+    authors: "Jaejoon Jeong, Gun A. Lee, Hyung-Jeong Yang, Soo-Hyung Kim, Ji-eun Shin, Gayun Suh, Sei Kang, Seungwon Kim"
+    links:
+      - { label: DOI, url: "https://doi.org/10.1109/ISMAR67309.2025.00016" }
+      - { label: Video, url: "https://www.youtube.com/watch?v=Um-GoWzdkWk" }
+
+  - title: "The RayHand Navigation: A Virtual Navigation Method with Relative Position between Hand and Gaze-Ray"
+    venue: "ACM CHI 2024"
+    image: /images/CHI_Rayhand.png
+    authors: "Sei Kang, Jaejoon Jeong, Gun A. Lee, Soo-Hyung Kim, Hyung-Jeong Yang, Seungwon Kim"
+    links:
+      - { label: DOI, url: "https://dl.acm.org/doi/10.1145/3613904.3642147" }
+      - { label: Video, url: "https://www.youtube.com/watch?v=cbDJiJG0QyA" }
+
+posters:
+  - title: "Willingness to Interact: Social Resources Facilitate Pulling Actions toward Social Avatars in Virtual Reality"
+    venue: "IEEE VRW 2025"
+    authors: "Jaejoon Jeong, Hwaryung Lee, Ji-eun Shin, Daeun Kim, Sei Kang, Gun A. Lee, Soo-Hyung Kim, Hyung-Jeong Yang, Seungwon Kim"
+    links:
+      - { label: DOI, url: "https://doi.org/10.1109/VRW66409.2025.00272" }
+      - { label: Video, url: "https://www.youtube.com/watch?v=-Ys_rPbK6ds" }
+
+patents:
+  - title: "Method and System for Distant Object Manipulation using Gaze Ray and Hand Interface"
+    sub: "Korea Granted Patent"
+    detail: "Registration No. 10-2864482"
+    links:
+      - { label: DOI, url: "https://doi.org/10.8080/1020250036318" }
+  - title: "An Electronic Device and Its Operation Method That Provides a Steering-Based Virtual Reality (VR) Navigation Environment That Operates Through a RayHand Control Method That Combines a Gaze and a Hand"
+    sub: "Korea Granted Patent"
+    detail: "Registration No. 10-2783127"
+    links:
+      - { label: DOI, url: "https://doi.org/10.8080/1020240100257" }

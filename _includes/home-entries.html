@@ -1,0 +1,22 @@
+{%- comment -%}
+  Entry list (patents, honors, talks, service).
+  Usage: {% include home-entries.html items=site.data.profile.awards %}
+  Each item: title, date (optional), sub (optional), detail (optional), links (optional)
+{%- endcomment -%}
+<div class="entry-list">
+  {%- for e in include.items %}
+  <article class="entry">
+    <div class="entry-head">
+      <h3 class="entry-title">{{ e.title }}</h3>
+      {%- if e.date %}<div class="entry-date">{{ e.date }}</div>{% endif %}
+    </div>
+    {%- if e.sub %}<div class="entry-sub">{{ e.sub }}</div>{% endif %}
+    {%- if e.detail %}<div class="entry-detail">{{ e.detail }}</div>{% endif %}
+    {%- if e.links %}
+    <div class="entry-links">
+      {% for l in e.links %}<a class="arrow-link" href="{{ l.url }}">{{ l.label }}<span class="arrow-glyph">↗</span></a>{% endfor %}
+    </div>
+    {%- endif %}
+  </article>
+  {%- endfor %}
+</div>

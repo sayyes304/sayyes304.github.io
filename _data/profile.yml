@@ -1,0 +1,44 @@
+# Homepage extras: hero links, awards, talks, service.
+# Entry format for awards/talks/service:
+#   title: bold line (left)   date: right-aligned
+#   sub:   second line        detail: small grey line (optional)
+
+role: "AR/VR & HCI"
+
+# `bio` accepts inline HTML. Leave an empty line between paragraphs.
+bio: |
+  I am a Ph.D. student at <a href="https://sites.google.com/view/arvrlab/home">ECL in Korea</a>,
+  <a href="https://www.jnu.ac.kr/">Chonnam National University</a>, advised by
+  Prof. <a href="https://scholar.google.com/citations?user=epOZdMsAAAAJ&hl=ko&oi=ao">Seungwon Kim</a>.
+
+  My research interests lie in AR/VR and HCI, especially in human-agent interaction.
+
+links:
+  - { label: "Google Scholar", url: "https://scholar.google.com/citations?user=VWLCcCgAAAAJ" }
+  - { label: "ORCID", url: "https://orcid.org/0009-0009-3779-8152" }
+  - { label: "GitHub", url: "https://github.com/sayyes304" }
+  - { label: "LinkedIn", url: "https://www.linkedin.com/in/sayyes304" }
+  - { label: "Email", url: "mailto:seikang@jnu.ac.kr" }
+  - { label: "CV", url: "/files/CV_강세이.pdf" }
+
+awards:
+  - { title: "NRF Ph.D. Fellowship", sub: "National Research Foundation, Korea", detail: "RS-2026-25574236", date: "2026.09 – 2028.08" }
+  - { title: "Ph.D. Excellence Scholarship (Science and Engineering)", sub: "Korea Student Aid Foundation (KOSAF)", date: "2026 –" }
+  - { title: "2025 BK21 Fellowship Scholarship", sub: "Chonnam National University", date: "2026" }
+  - { title: "Best Presentation Award", sub: "APMAR 2025", date: "2025" }
+  - { title: "NRF M.S. Fellowship", sub: "National Research Foundation, Korea", detail: "RS-2024-00465826", date: "2024.09 – 2025.08" }
+  - { title: "Presidential Science Scholarship (M.S.)", sub: "Korea Student Aid Foundation (KOSAF)", date: "2024.03 – 2025.08" }
+  - { title: "Outstanding Paper Award", sub: "Korea Digital Content Society", date: "2023" }
+  - { title: "Outstanding Paper Award", sub: "Korea Society for Smart Media", date: "2023" }
+  - { title: "National Excellence Scholarship (Science and Engineering)", sub: "Korea Student Aid Foundation (KOSAF)", date: "2022 – 2023" }
+  - { title: "Grand Prize, Web Portfolio — AI+X Coding Fundamental Competency Enhancement Competition", sub: "Gwangju Jeonnam Regional Innovation Platform", date: "2022" }
+
+talks:
+  - { title: "APMAR 2025", sub: "Pitch Your Work Session", date: "2025" }
+  - { title: "ISMAR 2024", sub: "Lightning Talk, LocXR Workshop", date: "2024" }
+  - { title: "Korea Computer Congress (KCC) 2024", sub: "Top Conference Session", date: "2024" }
+
+service:
+  - { title: "Reviewer", sub: "VRST 2026 poster, IEEE TVCG", date: "2026" }
+  - { title: "CG&I Society, Metaverse+AI+XR Workshop (KSC 2025)", sub: "Steering Committee Chair", date: "2025" }
+  - { title: "Korea Computer Graphics Society (KCGS) 2022", sub: "Student Volunteer", date: "2022" }
